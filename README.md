@@ -24,4 +24,4 @@ The web app version of the Sudoku Solver Visualizer allows users to input their 
 This project is an excellent resource for both puzzle enthusiasts looking to solve Sudoku puzzles effortlessly and learners interested in understanding the backtracking algorithm's application in solving complex problems.
 
 **live**
-<a>click here</a>
+<a href="https://kishlay42.github.io/sudoku-solver-visualizer/">click here</a>
