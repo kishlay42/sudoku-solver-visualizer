@@ -404,16 +404,6 @@ function backtracking(matrix, currentAlgo)
         startingRow = 0;
         startingCol = 0;
     }
-    else if(currentAlgo === "Reverse Backtracking")
-    {
-        startingRow = matrix.length - 1;
-        startingCol = matrix.length - 1;
-    }
-    else if(currentAlgo === "Spiral Backtracking")
-    {
-        startingRow = 0;
-        startingCol = 0;
-    }
     backtrackingHelper(matrix, isFixed, startingRow, startingCol, data, currentAlgo);
 }
 
@@ -541,14 +531,6 @@ function stopSolveSudokuBacktracking(currentAlgo)
     if(currentAlgo === "Backtracking")
     {
         alert("Backtracking is a Naive Algorithm. It tends to do well when the majority of entries near the top are prefilled.\nThe program is taking too long to find a solution. It will be terminated to prevent hanging.");
-    }
-    else if(currentAlgo === "Reverse Backtracking")
-    {
-        alert("Reverse Backtracking is a Naive Algorithm. It tends to do well when the majority of entries near the bottom are prefilled.\nThe program is taking too long to find a solution. It will be terminated to prevent hanging.");
-    }
-    else if(currentAlgo === "Spiral Backtracking")
-    {
-        alert("Spiral Backtracking is a Naive Algorithm. It tends to do well when the majority of entries near 4 edges are prefilled.\nThe program is taking too long to find a solution. It will be terminated to prevent hanging.")
     }
     clickedClear();
 }

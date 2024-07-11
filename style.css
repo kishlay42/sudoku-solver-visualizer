@@ -64,7 +64,7 @@ body
 /* START Menu-style.General Style */
 #nav-bar
 {
-    background-image: linear-gradient(rgb(102, 67, 245), rgb(246, 91, 158));
+    background-image: linear-gradient(rgb(102, 67, 245), rgb(135, 119, 196));
     text-align: center;
     opacity: 0.9;
     z-index: 2;
@@ -145,10 +145,12 @@ body
 #nav-bar .algo-sub-menu li 
 {
     min-width: 210px;
+    
 }
 #nav-bar .algo-selected
 {
     min-width: 210px;
+    display:none;
 }
 /* END Menu-Style.Algorithms dropdown */
 
@@ -201,6 +203,7 @@ body
     /* position: relative; */
     text-align: center;
     z-index: 0;
+    
 }
 /* END main-div.General Style */
 
@@ -214,6 +217,7 @@ body
     height: 395px;
     border: 3px solid rgb(15, 15, 15);
     opacity: 0.9;
+    box-shadow: rgb(87, 84, 232) 0px 20px 30px -10px;
 }
 
 table 
@@ -231,22 +235,22 @@ td
 
 td:first-child 
 {
-    border-left:solid rgb(155, 155, 255);
+    border-left:solid rgb(68, 68, 253);
 }
 
 td:nth-child(3n) 
 {
-    border-right:solid rgb(155, 155, 255) ;
+    border-right:solid rgb(77, 77, 224) ;
 }
 
 tr:first-child 
 {
-    border-top:solid rgb(155, 155, 255);
+    border-top:solid rgb(66, 66, 246);
 }
 
 tr:nth-child(3n) td 
 {
-    border-bottom:solid rgb(155, 155, 255);
+    border-bottom:solid rgb(59, 59, 229);
 }
 
 .cell input 
@@ -254,7 +258,7 @@ tr:nth-child(3n) td
     opacity: 0.9;
     display: inline-block;
 
-    border: 5px solid rgb(175, 247, 247);
+    border: 5px solid rgb(175, 203, 247);
     width: 40px;
     height: 40px;
 
