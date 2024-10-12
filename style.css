@@ -87,9 +87,9 @@ body
 #nav-bar h2
 {
     color: rgb(249, 247, 247);
-    font-style: italic;
+    font-style: bold;
     padding: 10px;
-    font-size: 25px;
+    font-size: 35px;
 }
 /* END Menu-Style.heading "Sudoku Solver Visualizer"*/
 
